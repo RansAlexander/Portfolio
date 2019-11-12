@@ -1,11 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: Roboto, Arial, "Helvetica Neue", Helvetica, sans-serif;
-    line-height: 1.5em;
+    line-height: 1.5em;    
 }
 
 h1 {
@@ -24,7 +25,9 @@ p {
     font-size: 16px;
     margin-bottom: 0;
 }
-
+.container-fluid {
+    padding: 0;
+}
 .darkbg {
     background-color: #111;
     color: #fff;
@@ -48,7 +51,20 @@ p {
 .certs {
     padding: 120px 0;
 }
-
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+nav a{
+    color: white;
+    background-color: inherit;
+    font-size: 20px;
+}
+nav a:hover {
+    background-color: #4285f4;
+    color: white;
+}
 header {
     width: 100vh;
     height: 100vh;
@@ -168,6 +184,9 @@ header p {
     }
     header p {
         font-size: 1.5em;
+    }
+    nav {
+        display: none;
     }
     .skills .col-md-12 {
     margin-bottom: 25px;

@@ -10,54 +10,73 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="container-fluid">
-        <nav></nav>
+        <nav class="darkbg">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#certs">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
         <section class="container d-flex align-items-center justify-content-center">
-            <div>
+            <div class="wow fadeInUp slow">
                 <h1 class="h1-responsive font-weight-bold text-uppercase">ALEXANDER RANS</h1>
                 <p>Passion is the start for every digital project.</p>
             </div>
         </section>
     </header>
-    <article class="container services">
+    <article class="container services" id="about">
         <h2 class="text-center font-weight-bold title text-uppercase"><strong>What I do</strong></h2>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInLeft">
                 <h3 class="h3-responsive"><i class="fas fa-brush blue-text pr-2"></i>Graphic design</h3>
-                <p>If you can think of it, I can make it. My projects always start out with a well thought out idea and always end up with a satisfied costumer. I do this with the greatest care and involve you in the process so I can make our product fulfill your wishes</p>
+                <p>If you can think of it, I can make it. My projects always start out with a well thought out idea and always end up with a satisfied costumer. I do this with the greatest care and involve you in the process so I can make our product
+                    fulfill your wishes</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInRight">
                 <h3 class="h3-responsive"><i class="fas fa-vector-square blue-text pr-2"></i>Illustrations</h3>
                 <p>If you want a decorative or visual explanation of a text, concept or process. Than we got you covered. This can vary from logo's to UX design and various other types of illustrations.</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInLeft">
                 <h3 class="h3-responsive"><i class="fas fa-globe-americas blue-text pr-2"></i>Web development</h3>
                 <p>I believe a website is the first step to make an impact in the digital world. I make costum websites from scratch to guarantee that your website will be unique to you.</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInRight">
                 <h3 class="h3-responsive"><i class="fas fa-camera blue-text pr-2"></i>Photography</h3>
-                <p>Photo's are a big part of Visual design and thats why having great photo's can have a big impact. With years of experience in photography, Photoshop and lightroom, I can make sure that I can make unique and spectacular photo's for your business or personal photobook</p>
+                <p>Photo's are a big part of Visual design and thats why having great photo's can have a big impact. With years of experience in photography, Photoshop and lightroom, I can make sure that I can make unique and spectacular photo's for
+                    your business or personal photobook</p>
             </div>
         </div>
     </article>
-    <article class="container-fluid darkbg">
+    <article class="container-fluid darkbg" id="portfolio">
         <div class="container portefolio">
             <h2 class="h2-responsive title text-center font-weight-bold title text-uppercase"><strong>Some of my work</strong></h2>
             <div class="row">
                 <div class="col-md-6 view">
 
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInLeft">
                         <div class="view overlay zoom">
                             <img src="img/logo_privacy.jpg" class="img-fluid " alt="Privacy logo">
                             <div class="mask flex-center rgba-black-strong">
@@ -65,7 +84,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInLeft">
                         <div class="view overlay zoom">
                             <img src="img/vfx_ortho.jpg" class="img-fluid " alt="3D Orthographic VFX">
                             <div class="mask flex-center rgba-black-strong">
@@ -73,7 +92,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInLeft">
                         <div class="view overlay zoom">
                             <img src="img/flyer.jpg" class="img-fluid " alt="MPF Flyer">
                             <div class="mask flex-center rgba-black-strong">
@@ -83,7 +102,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 view">
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInRight">
                         <div class="view overlay zoom">
                             <img src="img/img01.jpg" class="img-fluid " alt="Facts photo">
                             <div class="mask flex-center rgba-black-strong">
@@ -91,7 +110,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInRight">
                         <div class="view overlay zoom">
                             <img src="img/logo_pwrbank.jpg" class="img-fluid " alt="Powerbank logo">
                             <div class="mask flex-center rgba-black-strong">
@@ -99,7 +118,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInRight">
                         <div class="view overlay zoom">
                             <img src="img/flyer2.jpg" class="img-fluid " alt="+100 flyer">
                             <div class="mask flex-center rgba-black-strong">
@@ -111,10 +130,10 @@
             </div>
         </div>
     </article>
-    <article class="container skills">
+    <article class="container skills" id="skills">
         <h2 class="h2-responsive title text-center font-weight-bold title text-uppercase">Skillset</h2>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInLeft">
                 <div class="col-md-12 d-flex flex-row align-items-center">
                     <img src="img/photoshop.png" alt="Photoshop logo">
                     <div>
@@ -151,7 +170,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInRight">
                 <div class="col-md-12 d-flex flex-row align-items-center">
                     <img src="img/html.png" alt="HTML logo">
                     <div>
@@ -190,11 +209,11 @@
             </div>
         </div>
     </article>
-    <article class="container-fluid darkbg">
+    <article class="container-fluid darkbg" id="certs">
         <div class="container certs">
             <h2 class="h2-responsive title text-center font-weight-bold title text-uppercase">Certifications</h2>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInLeft">
                     <div class="col-md-12 d-flex align-items-center">
                         <img src="img/zenit.png" alt="Logo campus zenit">
                         <p>Degree in Multimedia</p>
@@ -204,7 +223,7 @@
                         <p>Certificate in smartphone repair</p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow fadeInRight">
                     <div class="col-md-12 d-flex align-items-center">
                         <img src="img/testdome.png" alt="Testdome logo">
                         <p>HTML/CSS</p>
@@ -217,7 +236,7 @@
             </div>
         </div>
     </article>
-    <article class="container contact">
+    <article class="container contact" id="contact">
         <h2 class="h2-responsive title text-center font-weight-bold title text-uppercase">Contact</h2>
         <div class="d-flex justify-content-around align-middle row">
             <div class="col-md-9">
@@ -257,12 +276,12 @@
     </article>
     <footer></footer>
     <script src="js/jquery-3.4.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
     <script src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
     <script src="js/mdb.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
