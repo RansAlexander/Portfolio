@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}

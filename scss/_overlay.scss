@@ -1,0 +1,32 @@
+.overlay-container {
+  position: relative;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+    color: $white;
+    background-color: $s-dark-bg;
+    a {
+      font-size: 2rem;
+      padding: 0.5rem;
+      color: $primary;
+      background-color: inherit;
+    }
+    p {
+      font-size: 2rem;
+    }
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  img {
+    width: 100%;
+    display: block;
+  }
+}
