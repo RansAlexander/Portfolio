@@ -1,6 +1,11 @@
 # portfolio
 Personal portfolio made back in 2017. Made with HTML, CSS and the Bootstrap framework. Coded from scratch. Initial uploaded into GitHub on 11/12/2019.
 
+## V2.2
+**Added resume and coresponding links**
+* Resume added
+* Link in navbar and header added
+
 ## V2.1
 **Improved portfolio design**
 * added icons to indicate website or image
