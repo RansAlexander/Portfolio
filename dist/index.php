@@ -46,17 +46,16 @@
                         <a class="nav-link link-underline" href="Rans_Resume.pdf" target="_blank">Resume</a>
                     </li>
                 </ul>
-                </ul>
             </div>
         </nav>
     </div>
     <section class="container-fluid d-flex align-items-center justify-content-center text-center">
         <div class="fadeInUp slow">
             <h1 class="h1-responsive font-weight-bold text-uppercase">ALEXANDER RANS</h1>
-            <p>Passion is the start for every digital project.</p>
+            <p>Passionate Web Developer &amp; Graphic Designer.</p>
             <a href="https://github.com/RansAlexander" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/rans-alexander-71b291182/" target="_blank"><i
-                    class="fab fa-linkedin"></i></a>
+                        class="fab fa-linkedin"></i></a>
             <a href="Rans_Resume.pdf" target="_blank"><i class="fas fa-briefcase"></i></a>
         </div>
     </section>
@@ -93,7 +92,7 @@
                             <p>AjaxDESiGN</p>
                             <div class="text-center">
                                 <i class="fas fa-eye-slash"></i>
-                                <a href="https://alexanderrans.com/uitdaging1/"><i class="fas fa-link"></i></a>
+                                <a href="taken/uitdaging1/index.html" target="_blank"><i class="fas fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -150,7 +149,8 @@
                             <p>Actie MIN</p>
                             <div class="text-center">
                                 <i class="fas fa-eye-slash"></i>
-                                <a href="https://alexanderrans.com/Keuzeproject1-MIN-A10-master/min/index.html"><i class="fas fa-link"></i></a>
+                                <a href="taken/Keuzeproject1-MIN-A10-master/min/index.html" target="_blank"><i
+                                            class="fas fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
                             <p>Website AjaxDesign</p>
                             <div>
                                 <i class="fas fa-eye-slash"></i>
-                                <a href="https://alexanderrans.com/uitdaging1/"><i class="fas fa-link"></i></a>
+                                <a href="taken/uitdaging1/index.html" target="_blank"><i class="fas fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,8 @@
                             <p>Website actie MIN</p>
                             <div>
                                 <i class="fas fa-eye-slash"></i>
-                                <a href="https://alexanderrans.com/Keuzeproject1-MIN-A10-master/min/index.html"><i class="fas fa-link"></i></a>
+                                <a href="taken/Keuzeproject1-MIN-A10-master/min/index.html" target="_blank"><i
+                                            class="fas fa-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -306,7 +307,7 @@
                     <img src="img/sass.png" alt="SASS logo">
                     <div>
                         <p class="text-large font-weight-bold">SASS</p>
-                        <p>1 years</p>
+                        <p>1 year</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
@@ -445,17 +446,17 @@
 <article class="container-fluid bg-s-dark-bg" id="contact">
     <div class="container contact">
         <h2 class="text-center">Contact</h2>
-        <form id="contact-form" name="contact-form" action="mailto:alexanderrans@protonmail.com" method="GET">
+        <form id="contact-form" name="contact-form" action="contact.php" method="POST">
             <div class="form-group">
-                <input type="name" class="form-control" id="name" placeholder="Name">
-                <input type="email" class="form-control" id="email" placeholder="Enter email">
-                <div class="form-group ">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+                <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject">
+                <input type="email" name="mail" class="form-control" id="email" placeholder="Enter email">
+                <label for="message">Message</label>
+                <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
             </div>
-        </form>
+    </div>
+    </form>
     </div>
 </article>
 <script src="js/jquery.min.js"></script>

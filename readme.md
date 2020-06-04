@@ -1,6 +1,13 @@
 # portfolio
 Personal portfolio made back in 2017. Made with HTML, CSS and the Bootstrap framework. Coded from scratch. Initial uploaded into GitHub on 11/12/2019.
 
+## V2.3
+**Moved host, switched to php for mail**
+* Moved hosting
+* Moved to php
+* Contact mail form now works with php instead of mail-to
+* Modified .htdocs to auto redirect to https
+
 ## V2.2
 **Added resume and coresponding links**
 * Resume added
