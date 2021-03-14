@@ -1,0 +1,27 @@
+.blogpost {
+  margin-top: 50px;
+  h2 {
+    margin: 0;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    //border-bottom: 0;
+    max-width: none;
+    font-size: 1.8rem;
+  }
+  h3 {
+    margin-top: 50px;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  .caption  {
+    font-size: 0.7rem;
+    font-style: italic;
+  }
+  .subtext {
+    font-size: 0.8rem;
+  }
+  .supertext {
+    font-size: 1.2rem;
+  }
+}

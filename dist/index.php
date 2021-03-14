@@ -91,7 +91,6 @@
                         <div>
                             <p>AjaxDESiGN</p>
                             <div class="text-center">
-                                <i class="fas fa-eye-slash"></i>
                                 <a href="taken/uitdaging1/index.html" target="_blank"><i class="fas fa-link"></i></a>
                             </div>
                         </div>
@@ -103,6 +102,18 @@
                     <div class="overlay">
                         <div>
                             <p>Logo Powerbank</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay-container">
+                    <img src="img/blogpost/rei/rei02.jpg" alt="Ayanami Rei figurine">
+                    <i class="icon-indicator fas fa-comment-alt"></i>
+                    <div class="overlay">
+                        <div>
+                            <p>Ayanami Rei Figurine</p>
+                            <div class="text-center">
+                                <a href="blogpost/ayanami-rei-figurine.html"><i class="fas fa-comment-alt"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -148,7 +159,6 @@
                         <div>
                             <p>Actie MIN</p>
                             <div class="text-center">
-                                <i class="fas fa-eye-slash"></i>
                                 <a href="taken/Keuzeproject1-MIN-A10-master/min/index.html" target="_blank"><i
                                             class="fas fa-link"></i></a>
                             </div>
@@ -187,7 +197,6 @@
                         <div>
                             <p>Website AjaxDesign</p>
                             <div>
-                                <i class="fas fa-eye-slash"></i>
                                 <a href="taken/uitdaging1/index.html" target="_blank"><i class="fas fa-link"></i></a>
                             </div>
                         </div>
@@ -199,6 +208,18 @@
                     <div class="overlay">
                         <div>
                             <p>Logo Powerbank</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay-container">
+                    <img src="img/blogpost/rei/rei02.jpg" alt="Ayanami Rei figurine">
+                    <i class="icon-indicator fas fa-comment-alt"></i>
+                    <div class="overlay">
+                        <div>
+                            <p>Ayanami Rei Figurine</p>
+                            <div class="text-center">
+                                <a href="blogpost/ayanami-rei-figurine.html"><i class="fas fa-comment-alt"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -229,7 +250,6 @@
                         <div>
                             <p>Website actie MIN</p>
                             <div>
-                                <i class="fas fa-eye-slash"></i>
                                 <a href="taken/Keuzeproject1-MIN-A10-master/min/index.html" target="_blank"><i
                                             class="fas fa-link"></i></a>
                             </div>
@@ -263,28 +283,24 @@
                     <img src="img/photoshop.jpg" alt="Photoshop logo">
                     <div>
                         <p class="text-large font-weight-bold">Photoshop</p>
-                        <p>7 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/illustrator.jpg" alt="Illustrator logo">
                     <div>
                         <p class="text-large font-weight-bold">Illustrator</p>
-                        <p>5 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/indesign.jpg" alt="Indesign logo">
                     <div>
                         <p class="text-large font-weight-bold">Indesign</p>
-                        <p>5 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/afterfx.jpg" alt="After Effects logo">
                     <div>
                         <p class="text-large font-weight-bold">After Effects</p>
-                        <p>4 years</p>
                     </div>
                 </div>
             </div>
@@ -293,28 +309,24 @@
                     <img src="img/premier.jpg" alt="Premier logo">
                     <div>
                         <p class="text-large font-weight-bold">Premier</p>
-                        <p>3 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/html.png" alt="HTML logo">
                     <div>
                         <p class="text-large font-weight-bold">HTML/CSS</p>
-                        <p>6 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/sass.png" alt="SASS logo">
                     <div>
                         <p class="text-large font-weight-bold">SASS</p>
-                        <p>1 year</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/bootstrap.png" alt="Bootstrap logo">
                     <div>
                         <p class="text-large font-weight-bold">Bootstrap</p>
-                        <p>4 years</p>
                     </div>
                 </div>
             </div>
@@ -323,28 +335,24 @@
                     <img src="img/mysql.png" alt="MySQL logo">
                     <div>
                         <p class="text-large font-weight-bold">MySQL</p>
-                        <p>1 year</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/python.png" alt="Python logo">
                     <div>
                         <p class="text-large font-weight-bold">Python</p>
-                        <p>1 year</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/java.png" alt="Java logo">
                     <div>
                         <p class="text-large font-weight-bold">Java</p>
-                        <p>1 year</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/office.png" alt="Microsoft Office logo">
                     <div>
                         <p class="text-large font-weight-bold">Office suite</p>
-                        <p>7 years</p>
                     </div>
                 </div>
             </div>
@@ -357,42 +365,36 @@
                     <img src="img/photoshop.jpg" alt="Photoshop logo">
                     <div>
                         <p class="text-large font-weight-bold">Photoshop</p>
-                        <p>7 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/illustrator.jpg" alt="Illustrator logo">
                     <div>
                         <p class="text-large font-weight-bold">Illustrator</p>
-                        <p>5 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/indesign.jpg" alt="Indesign logo">
                     <div>
                         <p class="text-large font-weight-bold">Indesign</p>
-                        <p>5 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/afterfx.jpg" alt="After Effects logo">
                     <div>
                         <p class="text-large font-weight-bold">After Effects</p>
-                        <p>4 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/premier.jpg" alt="Premier logo">
                     <div>
                         <p class="text-large font-weight-bold">Premier</p>
-                        <p>3 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/html.png" alt="HTML logo">
                     <div>
                         <p class="text-large font-weight-bold">HTML/CSS</p>
-                        <p>6 years</p>
                     </div>
                 </div>
             </div>
@@ -401,42 +403,36 @@
                     <img src="img/sass.png" alt="SASS logo">
                     <div>
                         <p class="text-large font-weight-bold">SASS</p>
-                        <p>1 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/bootstrap.png" alt="Bootstrap logo">
                     <div>
                         <p class="text-large font-weight-bold">Bootstrap</p>
-                        <p>4 years</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/mysql.png" alt="MySQL logo">
                     <div>
                         <p class="text-large font-weight-bold">MySQL</p>
-                        <p>1 year</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/python.png" alt="Python logo">
                     <div>
                         <p class="text-large font-weight-bold">Python</p>
-                        <p>1 year</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/java.png" alt="Java logo">
                     <div>
                         <p class="text-large font-weight-bold">Java</p>
-                        <p>1 year</p>
                     </div>
                 </div>
                 <div class="d-flex flex-row align-items-center">
                     <img src="img/office.png" alt="Microsoft Office logo">
                     <div>
                         <p class="text-large font-weight-bold">Office suite</p>
-                        <p>7 years</p>
                     </div>
                 </div>
             </div>
@@ -455,8 +451,7 @@
                 <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
             </div>
-    </div>
-    </form>
+        </form>
     </div>
 </article>
 <script src="js/jquery.min.js"></script>

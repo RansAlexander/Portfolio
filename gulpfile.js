@@ -12,7 +12,7 @@ var mqpacker = require('@lipemat/css-mqpacker');
 
 gulp.task('browser-sync', function () {
     browserSync.init({
-        startPath: '/index.html',
+        startPath: '/index.php',
         server: {
             baseDir: "./dist",
             directory: true

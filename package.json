@@ -1,0 +1,35 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio made back in 2017. Made with HTML, CSS and the Bootstrap framework. Coded from scratch. Initial uploaded into GitHub on 11/12/2019.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RansAlexander/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RansAlexander/Portfolio/issues"
+  },
+  "homepage": "https://github.com/RansAlexander/Portfolio#readme",
+  "devDependencies": {
+    "@lipemat/css-mqpacker": "^8.0.1",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
