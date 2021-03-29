@@ -165,6 +165,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="overlay-container">
+                    <img src="img/portfolio/model01.jpg" alt="Evangelion YAGR-101 model">
+                    <i class="icon-indicator fas fa-image"></i>
+                    <div class="overlay">
+                        <div>
+                            <p>Evangelion YAGR-101 model</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -256,6 +265,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="overlay-container">
                     <img src="img/portfolio/personalsite.jpg" alt="Logo portfolio">
                     <i class="icon-indicator fas fa-globe"></i>
@@ -266,6 +276,15 @@
                                 <a href="https://github.com/RansAlexander/Portfolio"><i class="fas fa-code"></i></a>
                                 <a href="#"><i class="fas fa-link"></i></a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay-container">
+                    <img src="img/portfolio/model01.jpg" alt="Evangelion YAGR-101 model">
+                    <i class="icon-indicator fas fa-image"></i>
+                    <div class="overlay">
+                        <div>
+                            <p>Evangelion YAGR-101 model</p>
                         </div>
                     </div>
                 </div>
